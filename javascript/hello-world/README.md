@@ -60,7 +60,7 @@ http://exercism.io/languages/javascript
 
 Execute the tests with:
 
-    jasmine-node .
+    jasmine-node . 
 
 In many test suites all but the first test have been skipped.
 
@@ -177,4 +177,3 @@ This is an exercise to introduce users to using Exercism [http://en.wikipedia.or
 
 ## Submitting Incomplete Problems
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
-
