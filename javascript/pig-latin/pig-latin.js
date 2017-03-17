@@ -1,3 +1,5 @@
+// NOT FINISHED
+
 const pigLatin = function() {};
 
 pigLatin.translate = function(str) {
@@ -12,6 +14,8 @@ pigLatin.translate = function(str) {
   }
 
   function consonant(str) {
+    // check is q is preceding a vowel (queen and sqaure example)
+    if ( str[firstConsonant-1] === 'q' ) return str.substr(firstConsonant+1) + str.substr(0, firstConsonant+1) + 'ay';
     translated = str.substr(firstConsonant) + str.substr(0, firstConsonant) + 'ay';
     return translated;
   }
