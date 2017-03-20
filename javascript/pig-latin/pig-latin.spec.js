@@ -42,7 +42,7 @@ describe('pigLatin', function () {
     expect(pigLatin.translate('school')).toEqual('oolschay');
   });
 
-  xit('translates a phrase', function () {
+  it('translates a phrase', function () {
     expect(pigLatin.translate('quick fast run'))
       .toEqual('ickquay astfay unray');
   });
